@@ -16,6 +16,8 @@ namespace SimpleFactory
                     return new Benz();
                 case "Bmw":
                     return new Bmw();
+                case "Audi":
+                    return new Audi();
                 default:
                     throw new NotImplementedException();
             }
