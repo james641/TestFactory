@@ -12,9 +12,8 @@ namespace TestFactory
         static void Main(string[] args)
         {
 
-            ICar myCar = CreateFactory.GetObject("Bmw");
+            ICar myCar = CreateFactory.GetObject("Audi");
             myCar.Drive();
-
 
             Console.ReadKey();
         }
